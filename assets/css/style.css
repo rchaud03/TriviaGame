@@ -9,35 +9,14 @@
     border: 4px;
 
 }
-.btn, .crystal-image {
-    width:100px;
-    max-width:100px;
-    
-}
 
-#instructions, #Numbers {
-   /* background-color: white;*/
-    border: 5px;
-    width: 400px;
- /*   background-image: url('assets/images/krystal.png'); */
-
-}
-
-#winCount {
-    color: green;
-    font-weight: 700;
-}
-#lossCount {
-    color: red;
-    font-weight: 700;
-}
 
 
 h1 {
 background-color: black;
 margin: 0;
 text-align: center;
-color: white;
+color: yellow;
 padding-top: 20px;
 padding-bottom: 20px;
 font-size: 28px;
