@@ -1,0 +1,54 @@
+
+#win, #winCount, #loss, #lossCount, #score2, #yourScore, #h2, #targetNumber {
+    float: left;
+    margin: 0;
+}
+#container {
+    width: 980px;
+    margin: 0 auto;
+    border: 4px;
+
+}
+.btn, .crystal-image {
+    width:100px;
+    max-width:100px;
+    
+}
+
+#instructions, #Numbers {
+   /* background-color: white;*/
+    border: 5px;
+    width: 400px;
+ /*   background-image: url('assets/images/krystal.png'); */
+
+}
+
+#winCount {
+    color: green;
+    font-weight: 700;
+}
+#lossCount {
+    color: red;
+    font-weight: 700;
+}
+
+
+h1 {
+background-color: black;
+margin: 0;
+text-align: center;
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 28px;
+
+}
+
+body {
+/*background-color: #efeee7;*/
+ /*   background-image: url('assets/images/krystal.png'); */
+ margin: 0;
+font-family: :Georgia, 'Times New Roman', Times, serif;
+font-size: 18px;
+line-height: 150%;
+}
