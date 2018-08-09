@@ -7,9 +7,13 @@
     width: 980px;
     margin: 0 auto;
     border: 4px;
+ /*   background-image: url("../images/typhoon.png");*/
 
 }
 
+#container {
+    display: none;
+}
 
 
 h1 {
@@ -25,10 +29,10 @@ font-size: 28px;
 
 body {
 /*background-color: #efeee7;*/
- /*   background-image: url('assets/images/krystal.png'); */
- background-image: url("assets/images/typhoon.png");
+/*   background-image: url('assets/images/krystal.png'); 
+ background-image: url("../images/typhoon.png");*/
  margin: 0;
-font-family: :Georgia, 'Times New Roman', Times, serif;
+font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 18px;
 line-height: 150%;
 }
