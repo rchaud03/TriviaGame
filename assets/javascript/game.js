@@ -12,9 +12,6 @@
     countDown ();
     }
 
-   var questionsP = "blah";
-    var questionsU = ["how old are you", "how old were you then?", "how old are yo now?", "how old will you be when?"]
-    var answersIMport = 0 ;
     var correct = 0;
     var incorrect = 0;
     var answers = ["customRadioInline3", "customRadioInline23", "customRadioInline32", "customRadioInline44", "customRadioInline52"]

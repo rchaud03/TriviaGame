@@ -3,17 +3,27 @@
     float: left;
     margin: 0;
 }
-#container, #startButton {
+#container, #startButton, #Instructions {
     width: 980px;
     margin: 0 auto;
     border: 4px;
  /*   background-image: url("../images/typhoon.png");*/
 
 }
-
+.gifpics {
+    float: left;
+}
+#pics {
+    width: 980px;
+    margin: 0 auto;
+    border: 4px;
+    float: none;
+/*     display: block;     */
+}
 #container {
     display: none;
 }
+
 
 
 h1 {
