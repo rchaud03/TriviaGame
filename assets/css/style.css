@@ -3,7 +3,7 @@
     float: left;
     margin: 0;
 }
-#container {
+#container, #startButton {
     width: 980px;
     margin: 0 auto;
     border: 4px;
@@ -16,7 +16,7 @@ h1 {
 background-color: black;
 margin: 0;
 text-align: center;
-color: yellow;
+color: red;
 padding-top: 20px;
 padding-bottom: 20px;
 font-size: 28px;
@@ -26,6 +26,7 @@ font-size: 28px;
 body {
 /*background-color: #efeee7;*/
  /*   background-image: url('assets/images/krystal.png'); */
+ background-image: url("assets/images/typhoon.png");
  margin: 0;
 font-family: :Georgia, 'Times New Roman', Times, serif;
 font-size: 18px;

@@ -21,7 +21,14 @@
 <body>
     <h1> TRIVIA GAME</h1>
 
-    <div id="container">
+    <br>
+    <br>
+    <div id="startButton" class="containers">
+        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="myFunction ()">CLICK TO START THE GAME</button>
+
+    </div>
+
+    <div id="container" class="containers">
         <div id="question1">
             <p>QUestion 1</p>
                 <div id="q1">
@@ -120,20 +127,34 @@
 
 
     <script type="text/javascript">
-    var userScore = 0;
+/*
+    function myFunction() {
+    var x = document.getElementById("container");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    }*/
+   function hideQuestions () {
+       var y = document.getElementById("container");
+       y.style.display === "none";
+   };
+   
+   hideQuestions ();
+
     var correct = 0;
     var incorrect = 0;
     var answers = ["customRadioInline3", "customRadioInline23", "customRadioInline32", "customRadioInline44"]
 
-
-    var myVar;
+    var timeStart;
 /*
 function myFunction() {
-    myVar = setTimeout(alertFunc, 3000);
+    timeStart = setTimeout(alertFunc, 3000);
 }*/
 
 
-   myVar = setTimeout (gamePlay, 20000);
+   timeStart = setTimeout (gamePlay, 20000);
     function gamePlay () {
         alert("Time is up!");
         tally ();
@@ -141,7 +162,8 @@ function myFunction() {
     };
 
     function submitted () {
-        clearTimeout(myVar);
+        clearTimeout(timeStart);
+        tally ();
     };
         
 
@@ -153,7 +175,6 @@ function myFunction() {
 
         if (document.getElementById(answers[i]).checked) {
             correct++;
-            userScore++;
         }
         else  {
            incorrect++;
