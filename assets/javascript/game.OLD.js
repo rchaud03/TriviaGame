@@ -7,7 +7,7 @@
     } else {
         x.style.display = "block";
     }
- 
+    //timeClock ();
     timeStart ();
     countDown ();
     }
@@ -15,10 +15,9 @@
     var correct = 0;
     var incorrect = 0;
     var answers = ["customRadioInline3", "customRadioInline23", "customRadioInline32", "customRadioInline44", "customRadioInline52"]
-    var myTimer ;           //means undefined
-// Countdown clock
-    var timeLeft = 60;
 
+// Countdown clock
+    var timeLeft = 30;
     function timeClock  () {
         setTimeout(countDown,1000);                    //ordinarily would launch the countDown function after 1 second but we put it inside a function and call it
              };                                        // with the START button instead
@@ -29,12 +28,13 @@
         setTimeout(countDown,1000);
     }
    console.log(timeLeft);
-   $("#timeLeft").text("Time left: "+timeLeft);
+   $("#timeLeft").text(timeLeft);
     }
 
 // Countdown to alert
    function timeStart () {
-    myTimer = setTimeout (timeIsUp, 60000);
+
+    setTimeout (timeIsUp, 30000);
     }
     
    function timeIsUp () {
@@ -45,11 +45,10 @@
 
 //Submit button clear timeout
     function submitted () {
-        clearTimeout(myTimer);
-        //clearTimeout(timeClock);
+        clearTimeout(timeStart);
+        clearTimeout(timeClock);
         checkAnswer ();
-        timeLeft = 1;
-       // clearTimeout(countDown);
+        clearTimeout(countDown);
     };
 
 //check answers against correctAnswers array

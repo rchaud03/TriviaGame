@@ -1,4 +1,7 @@
-
+img {
+    width: 200px;
+    height: 300px;
+}
 #win, #winCount, #loss, #lossCount, #score2, #yourScore, #h2, #targetNumber {
     float: left;
     margin: 0;
@@ -6,7 +9,8 @@
 #container, #startButton, #Instructions {
     width: 980px;
     margin: 0 auto;
-    border: 4px;
+    border: 10px;
+    background-color: white;
  /*   background-image: url("../images/typhoon.png");*/
 
 }
@@ -27,10 +31,11 @@
 
 
 h1 {
-background-color: black;
+background-color: blue;
+
 margin: 0;
 text-align: center;
-color: red;
+color: white;
 padding-top: 20px;
 padding-bottom: 20px;
 font-size: 28px;
@@ -38,9 +43,8 @@ font-size: 28px;
 }
 
 body {
-/*background-color: #efeee7;*/
-/*   background-image: url('assets/images/krystal.png'); 
- background-image: url("../images/typhoon.png");*/
+/*  background-image: url('../images/quab.png'); */
+
  margin: 0;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 18px;
