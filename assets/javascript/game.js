@@ -17,7 +17,7 @@
     var answers = ["customRadioInline3", "customRadioInline23", "customRadioInline32", "customRadioInline44", "customRadioInline52"]
     var myTimer ;           //means undefined
 // Countdown clock
-    var timeLeft = 60;
+    var timeLeft = 50;
 
     function timeClock  () {
         setTimeout(countDown,1000);                    //ordinarily would launch the countDown function after 1 second but we put it inside a function and call it
@@ -34,7 +34,7 @@
 
 // Countdown to alert
    function timeStart () {
-    myTimer = setTimeout (timeIsUp, 60000);
+    myTimer = setTimeout (timeIsUp, 50000);
     }
     
    function timeIsUp () {

@@ -1,37 +1,16 @@
-img {
-    width: 200px;
-    height: 300px;
-}
-#win, #winCount, #loss, #lossCount, #score2, #yourScore, #h2, #targetNumber {
-    float: left;
-    margin: 0;
-}
 #container, #startButton, #Instructions {
     width: 980px;
     margin: 0 auto;
     border: 10px;
     background-color: white;
- /*   background-image: url("../images/typhoon.png");*/
+}
 
-}
-.gifpics {
-    float: left;
-}
-#pics {
-    width: 980px;
-    margin: 0 auto;
-    border: 4px;
-    float: none;
-/*     display: block;     */
-}
 #container {
     display: none;
 }
 
-
-
 h1 {
-background-color: blue;
+background-color: rgba(33, 33, 235, 0.87);
 
 margin: 0;
 text-align: center;
@@ -39,14 +18,30 @@ color: white;
 padding-top: 20px;
 padding-bottom: 20px;
 font-size: 28px;
+}
 
+#banner {
+    font-size: 200px;
 }
 
 body {
-/*  background-image: url('../images/quab.png'); */
-
  margin: 0;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 18px;
 line-height: 150%;
+padding: 30px;
+background-image: url("../images/quab.png")
+}
+.p {
+    padding: 30px;
+}
+
+#Score, #timeLeft, #scoreBoard {
+    float: left;
+    width: 33.3%;
+}
+
+#timeLeft {
+    color: red;
+    font-weight: 700;
 }
